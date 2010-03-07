@@ -112,6 +112,7 @@ class Http
     {
         $this->_user = $user;
         $this->_pass = $pass;
+        return $this;
     }
 
     const POST   = 'POST';
